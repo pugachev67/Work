@@ -1,0 +1,120 @@
+@import url('https://fonts.google.com/specimen/STIX+Two+Math');
+
+body {
+  font-family: "Open Sans", serif;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(248,80,50,1);
+  background: -moz-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(248,80,50,1) 10%, rgba(241,111,92,1) 32%, rgba(240,47,23,1) 64%, rgba(246,41,12,1) 83%, rgba(231,56,39,1) 89%, rgba(231,56,39,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(248,80,50,1)), color-stop(10%, rgba(248,80,50,1)), color-stop(32%, rgba(241,111,92,1)), color-stop(64%, rgba(240,47,23,1)), color-stop(83%, rgba(246,41,12,1)), color-stop(89%, rgba(231,56,39,1)), color-stop(100%, rgba(231,56,39,1)));
+  background: -webkit-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(248,80,50,1) 10%, rgba(241,111,92,1) 32%, rgba(240,47,23,1) 64%, rgba(246,41,12,1) 83%, rgba(231,56,39,1) 89%, rgba(231,56,39,1) 100%);
+  background: -o-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(248,80,50,1) 10%, rgba(241,111,92,1) 32%, rgba(240,47,23,1) 64%, rgba(246,41,12,1) 83%, rgba(231,56,39,1) 89%, rgba(231,56,39,1) 100%);
+  background: -ms-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(248,80,50,1) 10%, rgba(241,111,92,1) 32%, rgba(240,47,23,1) 64%, rgba(246,41,12,1) 83%, rgba(231,56,39,1) 89%, rgba(231,56,39,1) 100%);
+  background: linear-gradient(to right, rgba(248,80,50,1) 0%, rgba(248,80,50,1) 10%, rgba(241,111,92,1) 32%, rgba(240,47,23,1) 64%, rgba(246,41,12,1) 83%, rgba(231,56,39,1) 89%, rgba(231,56,39,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827', GradientType=1 );
+}
+
+.main {
+  height: 55vh;
+  background: #2a6bb1;
+  box-shadow: 0px 2px 80px -20px rgba(0,0,0,0.5);
+  width: 60%;
+  margin: 0 auto;
+}
+
+.info {
+  height: 55vh;
+  background-blend-mode: multiply;
+  background-color: #5b6178;
+  border: 2px solid #000;
+  border-right: 2px solid #131e29;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000000;
+}
+
+.form {
+  height: 55vh;
+  padding-top: 100px;
+  padding-left: 50px;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  border-right: 2px solid #000;
+}
+
+input[type="text"] {
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 2px #000;
+  width: 50%;
+  padding-bottom: 4px;
+  color: #000;
+  font-weight: lighter;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #000;
+}
+
+input::-moz-placeholder {
+  color: #000;
+}
+
+button {
+  border: 2px solid #000;
+  border-bottom: 4px solid #000;
+  padding: 8px 20px;
+  margin: 0 2px;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: #5b6178;
+  color: #000;
+  outline: none!important;
+}
+
+button:hover {
+  border-bottom: 2px solid #000;
+  position: relative;
+  top: 2px;
+}
+
+button:active {
+  border-bottom: 2px solid transparent;
+  border-color: transparent;
+  position: relative;
+  top: 2px;
+}
+
+.info h2 {
+  font-size: 3em;
+  color: #000;
+}
+
+.info p {
+  color: #000;
+  font-weight: bold;
+}
+
+.infoWeath {
+  width: 60%;
+  font-size: 20px;
+  color: #000;
+}
+
+.error {
+  color: #000;
+  font-weight: bold;
+}
